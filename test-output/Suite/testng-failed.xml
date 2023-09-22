@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="siva1234"/>
+    <parameter name="email" value="siva"/>
+    <classes>
+      <class name="Project.FacebookTest.Sample">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Project.FacebookTest.Sample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

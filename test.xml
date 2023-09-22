@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="username" value="ram"></parameter>
+		<parameter name="password" value="ram456"></parameter>
+		<classes>
+			<class name="com.morningnineam.Launchdriver"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
